@@ -1,8 +1,9 @@
+
 # yaoUI
 前端组件化初步尝试
 
-##遮罩弹窗组件：
-####包括默认接口：
+## 遮罩弹窗组件：
+#### 包括默认接口：
 	width: 500, 			/* 默认宽度500px */
 	height: 300,			/* 默认高度300px */
 	title:"系统消息",		/* 默认标题 */
@@ -14,8 +15,9 @@
 	dragHandle: null,		/* 默认拖动触柄 */
 	skinClassName: null,	/* 默认皮肤 */
 
-####调用方法：
+#### 调用方法：
 main.js:
+```js
 	require(['jquery','window'],function($,w){
 		$("#a").click(function(){
 			new w.Window().alert({
@@ -33,13 +35,15 @@ main.js:
 			});
 		});
 	})
-
+```
 html:
+```html
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<link rel="stylesheet" type="text/css" href="css/window.css">
 	<script src="js/require.js" data-main="js/main.js"></script>
+```
 
 
-
-####在线演示demo：(http://zhangjingyao.com/static/window/demo.html)
+#### 在线演示demo：
+http://zhangjingyao.com/static/window/demo.html
 
