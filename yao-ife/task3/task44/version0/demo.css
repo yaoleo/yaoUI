@@ -1,0 +1,14 @@
+body{
+	background: whitesmoke;
+}
+
+.box {
+	height: 90px;
+	background-color: red;
+	display: block;
+	margin: 8px;
+}
+
+.waterfallColumn {
+	float: left;
+}
