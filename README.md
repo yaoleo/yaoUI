@@ -61,6 +61,7 @@ html:
 回调事件函数
 
 ####默认接口如下：
+```js
 this.cfg = {
         fatherId: "waterfall",      //默认父容器的id
         fallClass: "box",           //默认字容器的类
@@ -68,9 +69,10 @@ this.cfg = {
         pix: 16,                    //子容器的间距单位px
         isClickShowDetail: true,    //是否有点击回调函数，默认存在
     }
-
+```
 ## 表单组件：
 默认接口：
+```js
 function Form(){
     this.cfg = {
         fatherId: "father",  //创建表单所在的父节点ID
@@ -92,8 +94,9 @@ row: {
             blank: '名称不能为空',              // 验证无输入提示
             fail: '用户名格式错误',             // 验证失败
 }
-
+```
 例子：
+```js
 var form1 = {
     fatherId: "father_form1",
     formId: "form1",
@@ -145,11 +148,11 @@ var form1 = {
         }
     }
 }
+```
 
-
-//目前只是实现完input类型的函数
-//按照mdn的html指南，还有...
-//但是就是函数逻辑可能不一样而已，框架已经搭完了
+-目前只是实现完input类型的函数
+-按照mdn的html指南，还有...
+-但是就是函数逻辑可能不一样而已，框架已经搭完了
 
 <button>   HTMLButtonElement   button元素表示一个可点击的按钮。
 <datalist>  HTMLDataListElement 
@@ -191,3 +194,6 @@ progress元素用来查看任务的完成进展。
 <select>    HTMLSelectElement   select元素表示展示选项菜单的控件。
 <textarea>  HTMLTextAreaElement textarea元素表示一个多行明文可编辑控件。
 
+demo:
+http://yaoleo.github.io/yaoUI/window/6/window_demo.html
+http://yaoleo.github.io/yaoUI/waterfall/demo.html
