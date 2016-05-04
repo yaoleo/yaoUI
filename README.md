@@ -44,6 +44,4 @@ html:
 ```
 
 
-#### 在线演示demo：
-http://zhangjingyao.com/static/window/demo.html
 
